@@ -16,33 +16,34 @@ var planetData = [{ Earth: 9.8, src: "imgs/Earth.png" }, { Mercury: 3.59, src: "
 
 calculate.addEventListener('click', function () {
     var inputValue = document.querySelector(".input").value;
-    planetData.forEach((Element, i) => {
-        const keys = Object.keys(Element)
-        keys.forEach((key, i) => {
-            if (planets.selectedOptions[0].label === key) {
-                answer.innerHTML = 'Weight of the object on ' + key + ' = ' + inputValue * Element[key] + ' N';
-                imgs.src = Element[keys[i + 1]]
-                massText.textContent = '';
-                // hello saf
-            }
-        })
-    })
-})
+//     planetData.forEach((Element, i) => {
+//         const keys = Object.keys(Element)
+//         keys.forEach((key, i) => {
+//             if (planets.selectedOptions[0].label === key) {
+//                 answer.innerHTML = 'Weight of the object on ' + key + ' = ' + inputValue * Element[key] + ' N';
+//                 imgs.src = Element[keys[i + 1]]
+//                 massText.textContent = '';
+//                 // hello saf
+//             }
+//         })
+//     })
+// })
 
 // ========================================
 //  USING FOR EACH (SIMPLIFIED) 
 // ========================================
 
 
-    //     planetData.forEach((e, i) => {
-    //         for (const key in e) {
-    //             if (planets.selectedOptions[0].label === key){
-    //                    imgs.src = (e["src"]);
-    //                    massText.textContent = '';
-    //             }
-    //         }
-    //     })
-    // })
+        planetData.forEach((e) => {
+            for (const key in e) {
+                if (planets.selectedOptions[0].label === key){
+                answer.innerHTML = 'Weight of the object on ' + key + ' = ' + inputValue * e[key] + ' N';
+                        imgs.src = (e["src"]);
+                         massText.textContent = '';
+                }
+            }
+        })
+    })
 
 
 // ========================================================
