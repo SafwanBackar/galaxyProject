@@ -23,6 +23,7 @@ calculate.addEventListener('click', function () {
                 answer.innerHTML = 'Weight of the object on ' + key + ' = ' + inputValue * Element[key] + ' N';
                 imgs.src = Element[keys[i + 1]]
                 massText.textContent = '';
+                // hello saf
             }
         })
     })
