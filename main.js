@@ -10,7 +10,7 @@ var imgs = document.querySelector('.imgs')
 
 var planetData = [{ Earth: 9.8, src: "imgs/Earth.png" }, { Mercury: 3.59, src: "imgs/Mercury.png" }, { Venus: 8.87, src: "imgs/Venus.png" },
 { Mars: 3.7, src: "imgs/Mars.png" },{ Jupiter: 24.5, src: "imgs/Jupiter.png" }, { Saturn: 11.08, src: "imgs/Saturn.png" },
-{ Urnanus: 10.67, src: "imgs/Uranus.png" }, { Neptune: 14.07, src: "imgs/Neptune.png" },{ Moon: 1.6, src: "imgs/Moon.png" }]
+{ Urnaus: 10.67, src: "imgs/Uranus.png" }, { Neptune: 14.07, src: "imgs/Neptune.png" },{ Moon: 1.6, src: "imgs/Moon.png" }]
 
 
 
