@@ -12,10 +12,8 @@ var planetData = [{ Earth: 9.8, src: "imgs/Earth.png" }, { Mercury: 3.59, src: "
 { Mars: 3.7, src: "imgs/Mars.png" },{ Jupiter: 24.5, src: "imgs/Jupiter.png" }, { Saturn: 11.08, src: "imgs/Saturn.png" },
 { Urnaus: 10.67, src: "imgs/Uranus.png" }, { Neptune: 14.07, src: "imgs/Neptune.png" },{ Moon: 1.6, src: "imgs/Moon.png" }]
 
-
-
-
 calculate.addEventListener('click', function () {
+    console.log("hello from the other side")
     var inputValue = document.querySelector(".input").value;
 //     planetData.forEach((Element, i) => {
 //         const keys = Object.keys(Element)
