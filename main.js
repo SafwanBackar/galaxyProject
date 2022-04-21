@@ -16,6 +16,7 @@ var planetData = [{ Earth: 9.8, src: "imgs/Earth.png" }, { Mercury: 3.59, src: "
 
 
 calculate.addEventListener('click', function () {
+    console.log("hello from the other side")
     var inputValue = document.querySelector(".input").value;
 //     planetData.forEach((Element, i) => {
 //         const keys = Object.keys(Element)
